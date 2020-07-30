@@ -1,0 +1,108 @@
+.App {
+  max-width: 30em;
+  margin: 10em auto;
+  padding: 32px;
+  border: 1px solid #ccc;
+  align-items: center;
+  background-color: rgb(68, 122, 213, 0.7)
+}
+
+body{
+  background-image: url("./IMG_3329.JPG");
+  background-size: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-input{
+  font: inherit;
+  font-size: 24px;
+  /*width: 100%;*/
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  padding: 0 .5rem;
+
+}
+
+.todo-input:focus {
+  outline:none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.todo {
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.checkbox {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor:pointer;
+  background: #d9d9d9;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  transition: all 300ms ease;
+}
+
+.checkbox:hover {
+  opacity: 0.8;
+}
+
+.delete {
+  font-size: 24px;
+  font-weight: 600;
+  cursor: pointer;
+  /* margin-left: 94%; */
+  /* margin-top: -28px; */
+  color: #fff;
+}
+
+.delete:hover {
+  opacity: 0.8;
+}
+
+.container {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-top: 8px;
+  height: 30px;
+  background: #255ead;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem .5rem;
+  
+}
+
+.appContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.listCount {
+  margin-top: 8px;
+  font-size: 20px;
+  padding:0 .5rem;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.instruction {
+  font-size: 15px;
+  font-style: italic;
+  color: #fff;
+  margin: 0 .5rem;
+}
+
+
+
